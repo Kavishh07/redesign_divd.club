@@ -135,6 +135,7 @@ left: 0;
     display: block;
     align-items: center;
     text-align: center;
+    border: solid #000000 1px;
 }
 
 .col-sm-7 .row{

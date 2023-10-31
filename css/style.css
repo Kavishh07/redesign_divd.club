@@ -82,8 +82,13 @@ body {
 .row-padding{
     padding: 4em;
 }
+.equal-height {
+    display: flex;
+    align-items: stretch;
+}
 .card-yellow{
-    background-color: yellow;
+    background-color: #FDF941;
+    color: #000000;
     border-radius: 0;
     border: none;
     padding: 2em;
@@ -111,4 +116,27 @@ width: 20px; /* Set the width of your custom icon */
 height: 20px; /* Set the height of your custom icon */
 position: absolute;
 left: 0;
+}
+
+.card-black{
+    background-color: #161615;
+    color: #ffffff;
+    border-radius: 0;
+    border: none;
+    padding: 2em;
+}
+
+.yellow-btn{
+    text-decoration: none;
+    color: #000000;
+    background-color: #FDF941;
+    padding: 10px 35px;
+    border-radius: 5px;
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+.col-sm-7 .row{
+    margin-top: 1em;
 }

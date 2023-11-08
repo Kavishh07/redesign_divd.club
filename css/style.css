@@ -231,3 +231,66 @@ display: none;
         }
     }
 
+/* style row & cards */
+.row-padding{
+    padding: 4em;
+}
+.equal-height {
+    display: flex;
+    align-items: stretch;
+}
+.card-yellow{
+    background-color: #FDF941;
+    color: #000000;
+    border-radius: 0;
+    border: none;
+    padding: 2em;
+}
+/* .card-yellow li{
+    list-style-image: url('../image/check-mark63.svg');
+} */
+
+.card-yellow ul {
+list-style-type: none; /* Remove default bullet point */
+padding-left: 0; /* Remove any padding */
+}
+
+.card-yellow li {
+padding-left: 25px; /* Create space for the custom icon */
+position: relative;
+margin-top: 0.5em;
+}
+
+.card-yellow li::before {
+content: '✓'; /* Add empty content */
+font-weight: 600;
+display: inline-block;
+width: 20px; /* Set the width of your custom icon */
+height: 20px; /* Set the height of your custom icon */
+position: absolute;
+left: 0;
+}
+
+.card-black{
+    background-color: #161615;
+    color: #ffffff;
+    border-radius: 0;
+    border: none;
+    padding: 2em;
+}
+
+.yellow-btn{
+    text-decoration: none;
+    color: #000000;
+    background-color: #FDF941;
+    padding: 10px 35px;
+    border-radius: 5px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    border: solid #000000 1px;
+}
+
+.col-sm-7 .row{
+    margin-top: 1em;
+}

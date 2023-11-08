@@ -152,7 +152,7 @@ display: none;
     color: yellow; 
     padding: 20px 0;
     text-align: center;
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
     height: 180px;
     width: 100%;

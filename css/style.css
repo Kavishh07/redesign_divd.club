@@ -6,7 +6,7 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
     color: rgba(199, 205, 205, 1);
     
 } */
-.section-between-header-and-container p, .card-black p, .footer .section p{
+.section-banner p, .card-black p, .footer .section p{
     color: rgba(199, 205, 205, 1);
 }
 
@@ -115,31 +115,26 @@ left: 0;
 
 /* Bovenste sectie met geletekst enzo */
 
-.section-between-header-and-container {
+.section-banner {
     background-color: rgba(22, 22, 21, 1);
     color: white;
-    padding: 60px;
+    padding: 60px 0;
     margin-bottom: 30px;
     margin-top: -16px;
     width: 100%;
-    margin-right: -50px ;
+    /* margin-right: -50px ; */
     text-align: left; /* Tekst links uitlijnen binnen de sectie */
 }
-
-.section-between-header-and-container .container {
-    max-width: 800px;   
-    width: 100%;
-    margin-left: auto;
-    margin-right: 650px;
+.section-banner .div-banner{
+    max-width: 800px;
 }
-
-.section-between-header-and-container h1 {
+.section-banner h1 {
     color: yellow;
     font-size: 35px;
     margin-bottom: 10px;
 }
 
-.section-between-header-and-container p {
+.section-banner p {
     color: rgba(199, 205, 205, 1);
     font-size: 18px;
     margin-bottom: 10px;
@@ -147,7 +142,7 @@ left: 0;
 }
 
 @media (min-width: 1200px) {
-    .section-between-header-and-container .container {
+    .section-banner .container {
     
     }
 }

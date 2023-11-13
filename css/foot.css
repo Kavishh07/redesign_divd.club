@@ -15,12 +15,18 @@
     justify-content: left;
     align-items: center; 
 }
-
+.section:first-child{
+    padding-left: 0;
+}
+.section:last-child{
+    padding-right: 0;
+}
 .section {
     flex: 1;
     padding: 0 15px;
     text-align: left; 
 }
+
 
 .section h3 {
     font-size: 18px;

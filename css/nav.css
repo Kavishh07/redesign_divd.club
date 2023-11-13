@@ -28,8 +28,7 @@ header{
 }
 
 .open-menu {
-display: none;
-
+    display: none;
 }  
 
 .menu {
@@ -57,8 +56,6 @@ display: none;
     transition: 0.3s ease;
 }
 
-
-
 /* Hamburgermenu-stijlen voor mobiele weergave */
 #check {
     display: none;
@@ -71,17 +68,13 @@ display: none;
     color: white;
 }
 
-
 @media(min-width: 862px){
     .menu li a {
         background-color: yellow; 
         color: rgb(0, 0, 0); 
         padding: 10px;
-       
         margin: 5px;
     }
-
- 
 }
 
 /* Mediaquery voor mobiele weergave */
@@ -95,7 +88,7 @@ display: none;
     
 
     }  
-  .menu {
+    .menu {
         display: none;
         flex-direction: column;
         position: absolute;
@@ -105,7 +98,6 @@ display: none;
         right: 0;
         /* width: 1200px; */
         padding: 10px;
-   
         background-color: rgba(22, 22, 21, 1);
         box-shadow: 0 0 2px rgba(254, 234, 9, 0.449);
     }
@@ -119,13 +111,11 @@ display: none;
     }
 
     .menu.active {
-
         display: flex;
     }
 
     #check:checked + .menu {
         display: flex;
-   
     }
 
     .menu-icon {

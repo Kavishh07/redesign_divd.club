@@ -128,7 +128,7 @@ left: 0;
     padding: 60px 0;
     margin-bottom: 30px;
     margin-top: -16px;
-    width: 100%;
+    /* width: 100%; */
     /* margin-right: -50px ; */
     text-align: left; /* Tekst links uitlijnen binnen de sectie */
 }
